@@ -116,3 +116,11 @@ transform: translate(0px, -50%);
 .leftBorder {
   border-left: 3px solid black;
 }
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
