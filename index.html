@@ -835,6 +835,7 @@
         'click': function () {
           $('#homer_div').prepend('<center><video id="homer_video" width="1000" height="400"><source src="img/homer.mp4" type="video/mp4"></video></center>');
           $('#homer_video').get(0).play()
+          $('#homer_video').prop("disabled", true);
         }
       });
 
